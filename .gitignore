@@ -1,0 +1,24 @@
+# 클레임 데이터 원본 - 절대 커밋 금지
+*.xlsx
+*.xls
+*.csv
+!notes/**/*.csv
+data/
+raw/
+
+# PPTX/문서 원본 (사내 보고서 등)
+*.pptx
+*.ppt
+*.docx
+*.pdf
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
